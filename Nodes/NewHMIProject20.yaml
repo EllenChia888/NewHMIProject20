@@ -1,38 +1,48 @@
 Name: NewHMIProject20
+Id: g=16de57ba1639137fc07f09a2311c109f
 Type: ProjectFolder
 Children:
 - Name: BranchingEnabled
+  Id: g=4e74b47c0241e792625d4668d561e170
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
 - Name: Authentication
+  Id: g=68856132d2427bb460f79b26f1b51c70
   Type: PropertyGroup
 - Name: PasswordPolicy
+  Id: g=6847b2aba1c6ce7faac7f033f0eee023
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=bf27535174ce657ce1a51d8621b02703
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
+    Id: g=aaa90ec954f4eb9631d7d8fd9708d5fe
     Type: PropertyType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=10eac7fc8d01cf50cd335e7d68e2f49e
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
+    Id: g=289df83f475dd25f0c7f0b7adb4bbdb4
     Type: PropertyType
     DataType: Byte
     Value: 8
 - Name: Locales
+  Id: g=e84848f08e6580522a6f4422cddfe44d
   Type: BaseDataVariableType
   DataType: String
   ValueRank: OneDimension
   ArrayDimensions: [0]
   Value: ["es-ES","en-US"]
 - Name: LocaleFallbackList
+  Id: g=61b4387a4dd50176452d584a7b742a49
   Type: BaseDataVariableType
   DataType: String
   ValueRank: OneDimension
@@ -52,3 +62,14 @@ Children:
 - File: Security/Security.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- Name: EsquemaDeReceta1
+  Id: g=1a49115f3931fb0f3b2391c2a25b1247
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":0,"Id":0,"Namespace":-1}
+  Children:
+  - Name: Kind
+    Id: g=66f2a7215b0c6d571209af994325b407
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}

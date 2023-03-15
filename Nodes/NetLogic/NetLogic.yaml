@@ -1,2 +1,7 @@
 Name: NetLogic
+Id: g=bc1f932b8163683ec3ed2c358d39cd5c
 Type: NetLogicCategoryFolder
+Children:
+- Name: NetLogicDeTiempoDeEjecuci__n1
+  Id: g=f742ded81dfd0844121dccb9d09d6ea7
+  Type: NetLogic

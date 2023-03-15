@@ -1,2 +1,5 @@
 Name: CommDrivers
+Id: g=d657536af4c051fda2d8e4227312cd57
 Type: CommDriversCategoryFolder
+Children:
+- File: VariadorModbus1/VariadorModbus1.yaml

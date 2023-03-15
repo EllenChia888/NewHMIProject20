@@ -1,2 +1,35 @@
 Name: Loggers
+Id: g=5aa327dbccec8228b0e150d3b7633e25
 Type: LoggersCategoryFolder
+Children:
+- Name: RegistradorDeDatos1
+  Id: g=b6f180642d4a9863678e1e7999499962
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Id: g=f39c646c6e975a79e9b4181ba430cfca
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 1
+  - Name: Store
+    Id: g=02ff002e9591cf36c5295f236cf8d2f0
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=53150b50b71589746cff4752323f104d
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":21}
+  - Name: VariablesToLog
+    Id: g=5d733a37995da4f5809b9926b91074ac
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=16;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Id: g=00a20197b95ed47786f4356b40ae6137
+    Type: PropertyType
+    DataType: Boolean
+    Value: true

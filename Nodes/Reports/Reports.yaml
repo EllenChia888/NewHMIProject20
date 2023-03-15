@@ -1,2 +1,224 @@
 Name: Reports
+Id: g=a68ec43a5e3ef2b2421338e5c92e1640
 Type: ReportsCategoryFolder
+Children:
+- Name: HojaDeEstilo1
+  Id: g=fb15d1145013d90fe569fc37b773a412
+  Type: ReportStyleSheet
+  Children:
+  - Name: ButtonStyle
+    Id: g=6795854896491b17d8f4e15d2faf08b5
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Id: g=73baefd559d72bbda4a024070a6cdfa5
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Id: g=991e64f448b6343896e3bf462e4822ad
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Id: g=b083f3191651069822939541e260fac2
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Id: g=f7ba80510daf7f8160b80d374e813481
+    Type: GaugeStyle
+  - Name: NavigationPanelStyle
+    Id: g=6d9f32e1a4464263d76896fc864f02ea
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Id: g=8c30164d3cd02f614e277e2771e59cc5
+    Type: ChartStyle
+  - Name: DataListStyle
+    Id: g=65c6f1d7d12d54f9b6f64689314b4c8e
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Id: g=c0fd52d9d5779a7e579b0a3c3c23a2c5
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Id: g=0a643139af7491a5adc3bf987ff3c2ea
+    Type: ScrollBarStyle
+  - Name: AccordionStyle
+    Id: g=8e74b822e0a7ab3d3665837c3a07879a
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Id: g=2c89cfe8e385a39d42f055e7ef4b5ddc
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Id: g=fa03a80f07ab2edb288549acc84d8cbc
+    Type: HistogramChartStyle
+- Name: Informes1
+  Id: g=f2cff7fa2042823c895d9170cdb3d590
+  Type: Report
+  ReferenceType: HasComponent
+  Children:
+  - Name: PageSize
+    Id: g=e57f8fefcaeda4408ee8bbb03219ad8e
+    Type: BaseDataVariableType
+    DataType: PageSize
+    Value: 2
+  - Name: PageWidth
+    Id: g=dbdc279241765e92c817af382799ef65
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 210.0
+    Children:
+    - Name: EngineeringUnits
+      Id: g=54d836678f610eff101dbdd5e8c1d82c
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Id: g=5d92e32bd5a9b2f015cb586fb0bf4184
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        AccessLevel: Read
+        Value: 5066068
+      - Name: DisplayName
+        Id: g=22a3fd57589507ce08b729005f7edf91
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Id: g=a7eacfe8c5d5a6e512f58f98e0fd58b5
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: PageHeight
+    Id: g=cb6ddf14a74fe0abf6521d79c6249266
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 297.0
+    Children:
+    - Name: EngineeringUnits
+      Id: g=e0b0f31c42e1db1012f1a269e5bbfe57
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Id: g=40725a11e2e28f3904022c2bd76aa96a
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        AccessLevel: Read
+        Value: 5066068
+      - Name: DisplayName
+        Id: g=86d779fdd150d1b84d13c08b6a0dbc11
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Id: g=36afbf6b44d845ec08805a720a990fc2
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: StyleSheet
+    Id: g=cef7e261c2a9c46ead509171a9b81408
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"fb15d1145013d90fe569fc37b773a412","Namespace":7}
+    Children:
+    - Name: Kind
+      Id: g=1c60ed91de86efd3df687c6f310aabdf
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":192,"Namespace":13}
+  - Name: PageCount
+    Id: g=e2e87897b25144f51713806c187d0255
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: "{page_count}"
+  - Name: PageNumber
+    Id: g=0a3080a37b4ea4bfdba87be2e706e554
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: "{page_number}"
+  - Name: PrintDateTime
+    Id: g=e471d3183b3fed0193c4f51c580df957
+    Type: BaseDataVariableType
+    DataType: DateTime
+    AccessLevel: Read
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: Header
+    Id: g=7310c70579fb5e447a232ac2995851c8
+    Type: Panel
+    Children:
+    - Name: Height
+      Id: g=402576425f0c5020d22bc670fe078ee4
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 20.0
+      Children:
+      - Name: EngineeringUnits
+        Id: g=c184b59638c260d846b61afe68b0c4d0
+        Type: EUInformationType
+        DataType: EUInformation
+        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+        Children:
+        - Name: UnitId
+          Id: g=0744b7c0a2bf841f2ddc0ff3d3ae7bd4
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          AccessLevel: Read
+          Value: 5066068
+        - Name: DisplayName
+          Id: g=bd3bb627d05f8ae06123aa14c0b99341
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Description
+          Id: g=46a09b0cd88f11c20483541ed7b5a912
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: Sections
+    Id: g=14bd888552182874f4956b25367d3feb
+    Type: ReportColumnLayout
+  - Name: Footer
+    Id: g=b0279020d4fa48724ba4be325d677622
+    Type: Panel
+    Children:
+    - Name: Height
+      Id: g=e9941976f8600ffc27f0418c600d7447
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 20.0
+      Children:
+      - Name: EngineeringUnits
+        Id: g=914aa8135134894597c3086f5785332b
+        Type: EUInformationType
+        DataType: EUInformation
+        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+        Children:
+        - Name: UnitId
+          Id: g=847f05506a4f84e9991547bd6f32b9a1
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          AccessLevel: Read
+          Value: 5066068
+        - Name: DisplayName
+          Id: g=7e22851fb9abae3521d87a04f5cdac92
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Description
+          Id: g=529cb3c5bb43a3d052e2f77e27af5e5b
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Class: Reference
+    Target: ns=13;i=16
+    Direction: Forward
